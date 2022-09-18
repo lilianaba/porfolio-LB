@@ -28,6 +28,8 @@
         /* border: solid grey 5px; */
     }
 
+    
+/* stayling first title */
     h1{
         display:block;
         top:20px;
@@ -38,6 +40,7 @@
         font-size: 65px;
     }
     
+/* stayling second title */    
     h2{
         position:relative;
         display:flex;
@@ -49,6 +52,7 @@
         /* align-items: flex-end; */
     }
 
+/* Making nav bar do not overlap     */
     nav{
         display: inline-block; 
         position: relative;
@@ -64,6 +68,7 @@
         justify-content: flex-end;
         
     }
+    
     li{
         list-style-type:none;
         padding-left:20px;
@@ -71,17 +76,20 @@
         /* color:black; */
     }
 
+/* removing decoration from nav bar links and changing ugly blue*/
     a{
     text-decoration: none;
     color: #8d389e;
     }
-    
+
+/*making nice effect on link hover  */
     a:hover{
         text-decoration: none;
         color: #c639e2;
         font-style:italic;
     }
 
+   /*stayling side titles  */
     h3{
         text-align: right;
         width:30%;
@@ -94,7 +102,7 @@
         border-right: solid rgb(194, 134, 203) 15px;
     }
 
-   
+/* stayling each section  */
     .section{
         display: flex;
         padding-top: 30px;
@@ -105,7 +113,7 @@
 
     }
     
-
+/* using 100% width for each section */
     .section div {
         /* display: flex;
         padding: 30px;
@@ -114,11 +122,14 @@
         width: 100%;
     }
     
+    /* separating paragraph from side title */
     p{
         padding: 10px;
         /* text-align: justify; removed because wave doesnt like it */
     }
  
+
+    /* styling images title links */
     #work a{
         text-decoration: none;
         color: black;
@@ -127,6 +138,7 @@
     }
 
     
+    /* cool effect on image title link when hover */
     #work a:hover{
         text-transform: uppercase;
        background-image: linear-gradient(
@@ -155,6 +167,8 @@
           background-position: 200% center;
         }
       }
+
+
     .container{
         display: flex;
         flex-direction: column;
@@ -165,6 +179,8 @@
     
     } 
     
+
+    /* styling first big image */
     .first{
         width: 100%;
         /* display:flex; 
@@ -185,6 +201,8 @@
         margin-right: 50px;
        
     }
+
+    /* styling second section of 4 images */
     .second {
         width: 100%; 
         display:flex; 
@@ -207,6 +225,7 @@
     }
     
 
+    /* styling images */
     .first img{
         position: relative;
         /* border: solid mediumslateblue 6px; */
@@ -225,6 +244,8 @@
         /* position: ; */
         /* align-items: center;  */
     } 
+
+    /* styling titles over images */
     .section h4{
         position: absolute;
         bottom: 60px;
@@ -238,6 +259,7 @@
         padding: 10px;
     }
 
+    /* styling footer */
     footer{
         text-align: center;
         font-size: 30px;
@@ -248,6 +270,8 @@
         background:#c286cb62;
     }
 
+
+    /* setting up responsive CSS */
     @media screen and (max-width: 768px) {
         header,
         main,
