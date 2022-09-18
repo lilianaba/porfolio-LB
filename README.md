@@ -48,7 +48,7 @@ N/A
 
 ## Credits
 
-[Liliana Bazand](https://github.com/lilianaba)
+[Liliana Bazand](https://github.com/lilianaba){:target="_blank" rel="noopener"}
 
 
 # License
